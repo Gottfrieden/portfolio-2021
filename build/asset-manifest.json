@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c5b9ce85.chunk.css",
+    "main.js": "/static/js/main.ccf98c5d.chunk.js",
+    "main.js.map": "/static/js/main.ccf98c5d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7d1dd3c8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7d1dd3c8.js.map",
+    "static/js/2.aba32bd0.chunk.js": "/static/js/2.aba32bd0.chunk.js",
+    "static/js/2.aba32bd0.chunk.js.map": "/static/js/2.aba32bd0.chunk.js.map",
+    "static/js/3.95de705a.chunk.js": "/static/js/3.95de705a.chunk.js",
+    "static/js/3.95de705a.chunk.js.map": "/static/js/3.95de705a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.c5b9ce85.chunk.css.map": "/static/css/main.c5b9ce85.chunk.css.map",
+    "static/js/2.aba32bd0.chunk.js.LICENSE.txt": "/static/js/2.aba32bd0.chunk.js.LICENSE.txt",
+    "static/media/alex-fitness-white.ac73985f.svg": "/static/media/alex-fitness-white.ac73985f.svg",
+    "static/media/c2-logo.76d099be.svg": "/static/media/c2-logo.76d099be.svg",
+    "static/media/c2-mobile-one.1d4a229f.mov": "/static/media/c2-mobile-one.1d4a229f.mov",
+    "static/media/getFetch.cjs": "/static/media/getFetch.d7d6010d.cjs",
+    "static/media/hubert-mobile.f5f427c4.mov": "/static/media/hubert-mobile.f5f427c4.mov",
+    "static/media/ideasworx-mobile-one.5bfda8b6.mov": "/static/media/ideasworx-mobile-one.5bfda8b6.mov",
+    "static/media/ideasworx-white.1a7da869.svg": "/static/media/ideasworx-white.1a7da869.svg",
+    "static/media/sidebar.css": "/static/media/mail.9c34c6de.png",
+    "static/media/project-list-screen.css": "/static/media/mobile-screen-white.8249dceb.png",
+    "static/media/radio-atchoum.b71958ae.mov": "/static/media/radio-atchoum.b71958ae.mov",
+    "static/media/umbrella-mobile-two.070813c5.mov": "/static/media/umbrella-mobile-two.070813c5.mov",
+    "static/media/umbrella-white.710f3bf4.svg": "/static/media/umbrella-white.710f3bf4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7d1dd3c8.js",
+    "static/js/2.aba32bd0.chunk.js",
+    "static/css/main.c5b9ce85.chunk.css",
+    "static/js/main.ccf98c5d.chunk.js"
+  ]
+}

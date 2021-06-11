@@ -1,0 +1,31 @@
+.body-container {
+    position: absolute;
+    left: 101px;
+    bottom: 0px;
+    /* height: calc(100% - 199px);
+    width: calc(100% - 290px); */
+    /* padding:50px 70px; */
+    height: calc(100% - 101px);
+    width: calc(100% - 100px);
+    /* background-color:#383838; */
+    /* background-color:#222326; */
+    background-color:#212121;
+}
+.body-container:before {
+    content:'';
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    /* background-image:url('../images/noise.gif'); */
+    opacity:0.05;
+    pointer-events:none;
+}
+
+@media all and (max-width:768px) and (orientation:portrait) {
+    .body-container {
+        left:0;
+        width:100%;
+    }
+}

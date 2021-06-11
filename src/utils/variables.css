@@ -1,0 +1,12 @@
+html{
+    
+    --main-color:  #ed5c29;
+    --secondary-color: #efefe8;
+    /* --secondary-color: #212121; */
+    --shadow-color:#f5c6b5;    
+    
+    --color-text: black;
+    --color-background: lightgray;
+    --color-primary: rebeccapurple;
+    --gutter: 16px;
+  }

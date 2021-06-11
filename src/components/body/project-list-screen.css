@@ -1,0 +1,33 @@
+.images-container {
+    height:100%;
+    pointer-events:none;
+}
+.images-container.mobile img {
+    width:50%;
+}
+.video-player {
+    width:35%;
+    position: absolute;
+    top: 49.85%;
+    left:50.3%;
+    transform: translate(-50%, -50%);
+    z-index:99;
+}
+.screen {
+    background-image: url('../../images/mobile-screen-white.png');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.video-player:after {
+    content:'';
+    background-image:url('../../images/noise.gif');
+    height:100%;
+    width:100%;
+    position:absolute;
+}

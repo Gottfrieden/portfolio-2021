@@ -1,0 +1,97 @@
+.clients-name {
+    position: absolute;
+    right: 0;
+    top:0;
+    width: 100%;
+    background-color:#212121;
+}
+.project {
+    width: calc(100vw - 200px);
+    text-align: right;
+    padding: 30px 50px;
+    border-bottom: 1px solid black;
+    opacity:.5;
+}
+.project:hover {
+    background-color:rgba(39, 40, 41, .5);
+    opacity:1;
+}
+.project:hover span {
+    color:white;
+}
+.project.active {
+    opacity:1;
+}
+.project.active span {
+    color:white;
+}
+.project span {
+    /* color:#757575; */
+    color:white;
+}
+.clients-name .project h3 {
+    margin:0;
+    opacity:0.5;
+    margin-bottom:15px;
+}
+.clients-name .project:hover h3, .clients-name .project.active h3 {
+    opacity:1;
+}
+.project div {
+    display: flex;
+    justify-content: flex-end;
+}
+.project .year {
+    font-size: 14px;
+    display:none;
+}
+.tag {
+    padding:5px 10px;
+    border-radius:5px;
+    font-size:12px;
+    margin:0 5px;
+    color:white;
+    background-color:rgba(68, 65, 64, .5);
+}
+/* .tag.react {
+    background-color:rgba(97, 219, 251, .5);
+} */
+/* .tag.web-developer {
+    background-color:rgba(23, 26, 33, .5);
+    background-color:rgba(68, 65, 64, .5);
+} */
+/* .tag.web-designer {
+    background-color:rgba(42, 71, 94, .5);
+    background-color:rgba(68, 65, 64, .5);
+} */
+/* .tag.wordpress {
+    background-color:rgba(68, 65, 64, .5);
+} */
+/* .tag.ux {
+    background-color:rgba(92, 149, 255, .5);
+    background-color:rgba(68, 65, 64, .5);
+} */
+
+@media all and (max-width:768px) and (orientation:portrait) {
+    .project {
+        padding:30px 20px;
+        width:calc(100vw - 40px);
+        opacity:1;
+    }
+    #scene {
+        display:none;
+    }
+    .clients-name .project h3 {
+        opacity:1;
+    }
+    .project.active span {
+        /* color:#757575; */
+        color:white;
+    }
+    .year {
+        display:none;
+    }
+    .project-atribute {
+        justify-content:flex-end!important;
+    }
+}

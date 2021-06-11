@@ -1,0 +1,127 @@
+.body-container.selected-work {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.projects-container {
+    /* border:1px solid var(--main-color); */
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    /* box-shadow: 10px 11px 0px var(--shadow-color); */
+    margin-right:75px;
+    /* min-width:calc(100vw - 300px); */
+    /* min-width: calc(100vw - 151px);
+    min-height: calc(100vh - 101px); */
+    width: 90%;
+    height: 90%;
+    min-height:85%;
+    margin: 50px 0;
+    border:1px solid #212121;
+}
+.slider-arrow {
+    height:100%;
+    width:5%;
+    transition: all 0.2s ease-in-out;
+    /* background-color: var(--secondary-color); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    /* background-color:#212121; */
+
+}
+.slider-arrow:hover {
+    background-color:#f9f9f9
+}
+.slider-arrow.left {
+    border-right:1px solid var(--main-color);
+}
+.slider-arrow.right {
+    border-left:1px solid var(--main-color);
+}
+.arrow {
+    background-image:url('../images/arrow.png');
+    width:50px;
+    height:20px;
+    background-size:contain;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.arrow.left {
+    transform:rotate(180deg);
+}
+.project-images, .project-description {
+    width:50%;
+    height:100%;
+}
+.project-images {
+    border-right:1px solid #212121;
+    /* background-color:white; */
+    /* background-color:#212121; */
+
+}
+.project-description {
+    /* background-color: var(--secondary-color); */
+    display:flex;
+    flex-direction:column;
+    /* background-color:white; */
+    /* background-color:#222326; */
+    /* background-color:#212121; */
+}
+.project-description .two-columns span {
+    color:white;
+    /* font-weight:bold; */
+}
+.project-description .client {
+    height:15%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-bottom:1px solid #212121;
+}
+.project-description .client h3 {
+    font-weight:bold;
+    font-size:48px;
+}
+.project-description .two-columns {
+    height:15%;
+    border-bottom:1px solid #212121;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    /* background-color: var(--secondary-color); */
+    /* background-color:white; */
+    /* background-color:#222326; */
+    /* background-color:#212121; */
+}
+.project-description .two-columns .one-third {
+    border-right:1px solid #212121;
+}
+.project-description .two-columns .one-third, .project-description .two-columns .two-third {
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.project-description .description {
+    height: 55%;
+    width: calc(100% - 80px);
+    margin: 15px;
+    /* background-color: var(--secondary-color); */
+    padding: 25px;
+    /* background-color: #f9f9f9; */
+    /* background-color:#222326; */
+}
+.project-description .description p {
+    margin:0px;
+    color:white;
+}
+.slider-container {
+    display:flex;
+    flex-direction:column;
+    height:calc(100vh - 101px);
+    overflow-y:scroll;
+    align-items:center;
+}
